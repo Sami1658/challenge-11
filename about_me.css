@@ -1,0 +1,60 @@
+
+body{
+    background-color: #bbd6ee;
+    font-family: cursive;
+    }
+
+    div.header{
+        background-color: #87BDE9;
+        position: absolute;
+        top:0px ;
+        left:0px ;
+        width:1280px ;
+        height:90px ;
+    }
+
+    div.logo{
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    }
+
+    div.PageLink{
+        position: absolute;
+        top: 35px;
+        left: 1000px;
+        font-size: 20px;
+    }
+
+    div.about_title{
+        position: absolute;
+        top: 85px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 20px;
+    }
+
+    div.about_text{
+        position: fixed;
+        top: 65%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 20px;
+        text-align: center;
+        background-color: #CBE0F0;
+        width: 70%;
+        overflow: auto;
+        border-radius: 25px;
+    }
+
+        .main_link {
+        text-decoration: none;
+    }
+
+    .about_link {
+        text-decoration: none;
+    }
+
+    .contact_link {
+        text-decoration: none;
+    }
